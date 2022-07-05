@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png') }}">
-    <title>@yield('title') - 8-Stars Restaurant</title>
+    <title>@yield('title') - Madhang Laut</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('ela/css/lib/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Custom CSS -->

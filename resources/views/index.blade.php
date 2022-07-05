@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png') }}">
-    <title>8-Stars Restaurant &mdash; Food Specialty </title>
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo.png') }}"> -->
+    <title>Madhang Laut &mdash; Food Specialty </title>
     <!-- Bootstrap Core CSS -->
     <link href="{{ asset('ela/css/lib/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Custom CSS -->
@@ -68,15 +68,15 @@
                   <div class="carousel-inner">
                     <div class="container">
                       <div class="carousel-caption fadeInUp animated" style="bottom:0;top:200px">
-                        <h2 class="display-1" style="color:#fff;">8-Stars Restaurant</h2>
-                        <p class="h2" style="color: #ddd;padding-top:20px;padding-bottom: 20px">A Restaurant by Kelompok 8</p>
+                        <h2 class="display-1" style="color:#fff;">Madhang Laut</h2>
+                        <p class="h2" style="color: #ddd;padding-top:20px;padding-bottom: 20px">A Restaurant by Kelompok 2</p>
                       </div>
                     </div>
                     <div class="carousel-item active" style="height: 100vh">
-                      <img style="filter: brightness(40%); width:100%;" class="first-slide" src="resto/images/dinner1.jpg" alt="First slide">
+                      <img style="filter: brightness(40%); width:100%;" class="first-slide" src="resto/images/dinner1.png" alt="First slide">
                     </div>
                     <div class="carousel-item" style="height: 100vh">
-                      <img style="filter: brightness(40%); width:100%;" class="second-slide" src="resto/images/carlo drink.jpg" alt="Second slide">
+                      <img style="filter: brightness(40%); width:100%;" class="second-slide" src="resto/images/carlo drink.png" alt="Second slide">
                     </div>
                     <div class="carousel-item" style="height: 100vh">
                       <img style="filter: brightness(40%); width:100%;" class="third-slide" src="resto/images/sushi1.jpg" alt="Third slide">
@@ -93,7 +93,7 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
                         <!-- Logo icon -->
-                        <b><img src="{{asset('images/logo.png')}}" alt="homepage" class="dark-logo" /></b>
+                        <!-- <b><img src="{{asset('images/logo.png')}}" alt="homepage" class="dark-logo" /></b> -->
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span><img src="{{asset('images/logo-text.png')}}" alt="homepage" class="dark-logo" /></span>
@@ -157,11 +157,11 @@
         <div id="about">
             <div class="row" style="background-image:url({{ asset('resto/images/wood_1.png')}});">
               <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset('resto/images/dinner1.jpg')}}">
+                <img class="img-fluid" src="{{ asset('resto/images/dinner1.png')}}">
               </div>
               <div class="col-md-6" style="padding:30px 50px;">
                 <h2 class="display-4" style="color:#fff;padding-bottom: 10px;padding-top: 20px">About</h2>
-                <p class="lead" style="color:#a99c92;font-weight: 300">8-Stars Restaurant, Restoran dengan gaya khas Western yang sangat cocok untuk berbagai acara dan kebutuhan. Dikenal sejak tahun 1867, Kami menggunakan bahan - bahan yang berkualitas dan dipilah secara baik dari sumbernya sehingga menghasilkan hasil masakan yang lezat dan berkualitas. 8-Stars Restaurant menyediakan tempat untuk anda yang ingin berbagi momen bersama orang - orang disekitar anda melalui makanan yang kami sediakan, mari pesan tempat anda sekarang.</p>
+                <p class="lead" style="color:#a99c92;font-weight: 300">Madhang Laut, Restoran dengan gaya khas Western yang sangat cocok untuk berbagai acara dan kebutuhan. Dikenal sejak tahun 1867, Kami menggunakan bahan - bahan yang berkualitas dan dipilah secara baik dari sumbernya sehingga menghasilkan hasil masakan yang lezat dan berkualitas. Madhang Laut menyediakan tempat untuk anda yang ingin berbagi momen bersama orang - orang disekitar anda melalui makanan yang kami sediakan, mari pesan tempat anda sekarang.</p>
               </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
                     <div class="carousel-item active" style="height: 300px">
                       <div class="container">
                         <div class="carousel-caption">
-                          <h3 class="display-4" style="color:#5e493a;font-size: 40px ;">"Makan adalah hobiku. 8-Stars Restaurant mengirim hobiku ke tingkatan selanjutnya."</h3>
+                          <h3 class="display-4" style="color:#5e493a;font-size: 40px ;">"Makan adalah hobiku. Madhang Laut mengirim hobiku ke tingkatan selanjutnya."</h3>
                           <p class="h4" style="color: gray; padding-top:20px;padding-bottom: 20px">Adhiarta</p>
                         </div>
                       </div>
@@ -242,7 +242,7 @@
         </div>
 
         <div id="reservasi" class="container">
-            <h2 class="display-4" style="text-align: center;color:#5e493a;padding:50px 0;">Reservasi</h2>
+            <h2 class="display-4" style="text-align: center;color:#5e493a;getipadding:50px 0;">Reservasi</h2>
 
             <div class="row">
                 <div class="col-md-6">
@@ -250,11 +250,11 @@
                     <ul>
                         <li style="padding-left: 50px;margin-bottom: 10px">
                             <i class="icon-home" style="position: absolute;left: 20px"></i>
-                            Jalan Raya Batu Belig no. 17X, <br> Seminyak, Bali
+                            Jalan Raya Bogor 5 no 7, <br> Semarang, Jawa Tengah
                         </li>
                         <li style="padding-left: 50px;margin-bottom: 10px"><i class="icon-phone" style="position: absolute;left: 20px"></i> (0361)237-163</li>
-                        <li style="padding-left: 50px;margin-bottom: 10px"><i class="icon-envelope" style="position: absolute;left: 20px"></i>8-stars@gmail.com</li>
-                        <li style="padding-left: 50px;margin-bottom: 10px"><i class="icon-globe" style="position: absolute;left: 20px"></i> <a href="#" target="_blank">8-stars.com</a></li>
+                        <li style="padding-left: 50px;margin-bottom: 10px"><i class="icon-envelope" style="position: absolute;left: 20px"></i>MadhangLaut@gmail.com</li>
+                        <li style="padding-left: 50px;margin-bottom: 10px"><i class="icon-globe" style="position: absolute;left: 20px"></i> <a href="#" target="_blank">MadhangLaut.com</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6">
@@ -334,35 +334,32 @@
                 <h2 class="display-4" style="text-align:center;color:#fff;padding:50px 0;">Team</h2>
                 <div class="row justify-content-center" style="padding: 15px">
                     <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/jhona.png')}}" title="Jhona" class="rounded img-responsive" style="cursor: pointer;">
+                        <img src="{{ asset('images/kelompok/jhona.png')}}" title="alvin" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
                     <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/ilham.png')}}" title="Ilham" class="rounded img-responsive" style="cursor: pointer;">
+                        <img src="{{ asset('images/kelompok/ilham.png')}}" title="sulthan" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
                     <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/adhi.png')}}" title="Adhiarta" class="rounded img-responsive" style="cursor: pointer;">
+                        <img src="{{ asset('images/kelompok/adhi.png')}}" title="midah" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
                 </div>
                 <div class="row justify-content-center" style="padding: 15px">
-                    <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/gungwira.png')}}" title="Gung Wira" class="rounded img-responsive" style="cursor: pointer;">
+                    <div class="col-md-2">r
+                        <img src="{{ asset('images/kelompok/qonnita.png')}}" title="qonnita" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
                     <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/maria.png')}}" title="Marria" class="rounded img-responsive" style="cursor: pointer;">
-                    </div>
-                    <div class="col-md-2">
-                        <img src="{{ asset('images/kelompok/cen.png')}}" title="Cen" class="rounded img-responsive" style="cursor: pointer;">
+                        <img src="{{ asset('images/kelompok/cen.png')}}" title="wahyu" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
                 </div>
-                <div class="row justify-content-center" style="padding: 10px">
+                <!-- <div class="row justify-content-center" style="padding: 10px">
                     <div class="col-md-2">
                         <img src="{{ asset('images/kelompok/boy.png')}}" title="Boy" class="rounded img-responsive" style="cursor: pointer;">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
-        <footer class="footer" style="text-align: center;"> © 2018 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib <span id="tes"></span></a></footer>
+        <footer class="footer" style="text-align: center;"> © 2022 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib <span id="tes"></span></a></footer>
 
         <div id="exampleModal" class="modal fadeInUp animated" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
